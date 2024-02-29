@@ -14,7 +14,7 @@ public:
             bricks-=ses;
             p.push(ses);
 
-            if(bricks<0){
+            if(bricks<0) {
                 bricks+=p.top();
                 p.pop();
                 ladders--;
